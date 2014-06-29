@@ -18,7 +18,7 @@ class AgendaService {
   bool createMeeting(std::string userName, std::string title,
                      std::string participator,
                      std::string startDate, std::string endDate);
-  std::list<Meeting> meetingQuery(std::string title);
+  std::list<Meeting> meetingQuery(std::string userName, std::string title);
   std::list<Meeting> meetingQuery(std::string userName, std::string startDate,
                                   std::string endDate);
   std::list<Meeting> listAllMeetings(std::string userName);
