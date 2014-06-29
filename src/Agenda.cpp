@@ -1,8 +1,8 @@
 #include "AgendaUI.h"
 
-AgendaUI acc;
+AgendaUI aui;
 
 int main() {
-  acc.getOperation();
+  aui.OperationLoop();
   return 0;
 }
