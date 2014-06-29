@@ -13,7 +13,7 @@ class AgendaUI {
  private:
   // task functions
   void startAgenda(void);
-	std::string getOperation();
+  std::string getOperation();
   bool executeOperation(std::string op);
   void userLogIn(void);
   void userRegister(void);
