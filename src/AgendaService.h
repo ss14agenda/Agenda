@@ -12,7 +12,8 @@ class AgendaService {
   bool userLogIn(std::string userName, std::string password);
   bool userRegister(std::string userName, std::string password,
                     std::string email, std::string phone);
-  bool deleteUser(std::string userName, std::string password); // a user can only delete itself
+  bool deleteUser(std::string userName, std::string password);
+	// a user can only delete itself
   std::list<User> listAllUsers(void);
 
   bool createMeeting(std::string userName, std::string title,
